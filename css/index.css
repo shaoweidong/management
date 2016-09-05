@@ -1,0 +1,129 @@
+/* 
+* @Author: WellsFeng
+* @Date:   2016-09-02 14:22:38
+* @Last Modified by:   Marte
+* @Last Modified time: 2016-09-05 10:06:51
+*/
+body{
+    height: 100%;
+    width: 100%;
+}
+.header{
+    height: 41px;
+    width: 990px;
+    margin: 30px auto;
+}
+.header h1{
+    height: 41px;
+    line-height: 41px;
+    float: left;
+    padding-left: 146px;
+    font-size: 24px;
+    color: #0181cd;
+    background: url("../images/logo.png") no-repeat;
+}
+.header a{
+    display: block;
+    float: right;
+    height: 20px;
+    line-height: 20px;
+    margin: 20px 0 0;
+    padding-right: 30px;
+    font-size: 16px;
+    color: #2e9ae3;
+    background: url("../images/logo.png") no-repeat 100px -50px;
+}
+.wrapper{
+    width: 100%;
+    background: #6eccff;
+    height: 480px;
+}
+.main{
+    width: 990px;
+    height: 480px;
+    margin: 0 auto;
+    background: url("../images/home.png") no-repeat 60px 30px;
+    position: relative; 
+}
+.login{
+    width: 380px;
+    position: absolute;
+    right: 0;
+    top: 60px;
+    background: #fff;
+    padding: 20px;
+}
+.login h2{
+    height: 50px;
+    line-height: 50px;
+    font-size: 26px;
+    color: #17a8e1;
+    text-align: center;
+    border-bottom: 1px solid #ebebeb;
+}
+.usernameWrap,.passwordWrap,.identifyCodeWrap{
+    position: relative;
+    height: 40px;
+    margin-top: 20px;
+}
+.usernameWrap span,.passwordWrap span{
+    position: absolute;
+    display: inline-block;
+    height: 40px;
+    width: 50px;
+    left: 20px; 
+    background: url("../images/logo.png") no-repeat 16px -73px;
+    border: 1px solid #b4b4b4;
+}
+#username,#password,#identifyCode{
+    position: absolute;
+    height: 40px;
+    width: 250px;
+    left: 70px;
+    border: 1px solid #b4b4b4;
+    outline: none;
+    padding-left: 2em;
+    line-height: 40px;
+}
+.passwordWrap span{
+    background-position: 16px -108px;
+}
+#identifyCode{
+   width: 100px;
+   padding-left: 1em;
+   left: 20px;
+}
+.identifyCodeWrap img{
+    position: absolute;
+    left: 150px;
+    height: 42px;
+    width: 115px;
+    cursor: pointer;
+}
+.identifyCodeWrap span{
+    position: absolute;
+    left: 280px;
+    top: 16px;
+    text-decoration: underline;
+    cursor: pointer;
+}
+#errMsg{
+    height: 20px;
+    line-height: 20px;
+    color: red;
+    margin: 16px auto;
+    text-align: center;
+}
+#login{
+    display: block;
+    height: 40px;
+    line-height: 40px;
+    font-size: 22px;
+    text-align: center;
+    background: #66bdeb;
+    color: #fff;
+}
+.footer{
+    margin-top: 20px;
+    text-align: center;
+}
